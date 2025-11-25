@@ -45,6 +45,7 @@ Real-Time Streaming · ML Prediction · Medallion Architecture · RAG Chatbot
 ---
 
 ## 3. 전체 아키텍처
+```
 [SENSOR SIMULATOR]
 ↓ (Event Hub)
 [Azure Stream Analytics]
@@ -60,7 +61,7 @@ Real-Time Streaming · ML Prediction · Medallion Architecture · RAG Chatbot
 [Function App → Logic App → Teams Alert]
 ↓
 [Power BI Dashboard] [RAG Chatbot]
-
+```
 
 ---
 
@@ -181,7 +182,7 @@ Real-Time Streaming · ML Prediction · Medallion Architecture · RAG Chatbot
 ---
 
 ## 11. 프로젝트 구조
-
+```
 azure-semicon/
 ├── README.md
 ├── docs/
@@ -200,7 +201,7 @@ azure-semicon/
 │   ├── teams_alert.mp4
 │   └── rag_demo.mp4
 └── requirements.txt
-
+```
 
 
 ---
